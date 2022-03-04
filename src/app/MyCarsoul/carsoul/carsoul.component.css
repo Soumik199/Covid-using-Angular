@@ -1,0 +1,93 @@
+.red{
+    width:300px;
+    height: 100px;
+    background: rgb(151, 202, 243);
+    margin-right: 10px;
+    margin-left:auto;
+   
+}
+.text{
+    margin-top: 20px;
+    text-align: center;
+    color:rgb(33, 18, 117);
+    font-size: 23px;
+    font-weight:950px;
+    font-style: bold;
+    font-family: 'Redressed', cursive;
+}
+.texts{
+    margin-top: 20px;
+    text-align: center;
+    color:rgb(33, 18, 117);
+    font-size: 22px;
+    font-weight:950px;
+    font-style: bold;
+    font-family: 'Redressed', cursive;
+}
+span{
+    color:rgb(10, 10, 10);
+    font-weight:950px;
+}
+.yellow
+{
+    width:300px;
+    height: 100px;
+    background: rgb(91, 240, 232);
+    margin-right: 10px;
+    text-align: center;
+}
+.Blue{
+
+    width:300px;
+    height: 100px;
+    background: rgb(214, 100, 243);
+    margin-right: 10px;
+    text-align: center;
+}
+.yrd{
+
+    width:300px;
+    height: 100px;
+    background: rgb(255, 176, 229);
+    margin-right: 10px;
+    text-align: center;
+}
+.htext
+{
+    margin-top:50px;
+    text-align: center;
+    color:rgb(3, 27, 3);
+    font-weight: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 700px;
+}
+        
+h4{
+    text-align: center;
+    color: rgb(253, 116, 4);
+     margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+}
+h5{
+    text-align: center; 
+}
+h5{
+    color:green;
+
+}
+.card-text{
+  
+    background: fill;
+    text-align: right;
+  }
+  .card{
+     border-color: rgb(134, 133, 132);
+     border-radius: 15px;
+     border-width: 2.5px;
+     box-shadow: 15px 15px rgba(182, 224, 219, 0.288);
+     margin-bottom:20px;
+     width: 350px;
+     margin-left:30px;
+  }
