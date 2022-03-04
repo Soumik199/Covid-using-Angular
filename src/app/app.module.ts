@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './MyNav/navbar/navbar.component';
 import { CarsoulComponent } from './MyCarsoul/carsoul/carsoul.component';
 import { SectionComponent } from './Body/section/section.component';
+import { FormComponent } from './form/form.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CarsoulComponent,
-    SectionComponent
+    SectionComponent,
+    FormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
