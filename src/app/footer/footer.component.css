@@ -17,6 +17,12 @@ body{margin-top:20px;}
     overflow: hidden;
     position: relative;
 }
+.social-icon li a:hover{
+  background-color:rgb(248, 239, 223);
+  color:black;
+  border: 1px solid #3c4858;
+  display: inline-block;
+}
 .rounded {
     border-radius: 5px !important;
 }
