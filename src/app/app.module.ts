@@ -8,6 +8,9 @@ import { CarsoulComponent } from './MyCarsoul/carsoul/carsoul.component';
 import { SectionComponent } from './Body/section/section.component';
 import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
+import { CaseComponent } from './case/case.component';
+import { VaccineComponent } from './vaccine/vaccine.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { FooterComponent } from './footer/footer.component';
     CarsoulComponent,
     SectionComponent,
     FormComponent,
-    FooterComponent
+    FooterComponent,
+    CaseComponent,
+    VaccineComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
