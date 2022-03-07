@@ -2,10 +2,10 @@
     {
         "state":"westbengal",
         "confirmed": 914,
+        "recovered": 913,
         "vaccinated1": 209609,
         "vaccinated2": 58881,
         "deceased": 15,
-        "recovered": 913,
         "tested": 47417
     },
     {
@@ -20,22 +20,24 @@
         "state":"Pune",
         "confirmed": 245,
         "recovered": 300,
+        "tested":10,
         "vaccinated1": 2900,
         "vaccinated2": 4885
     },
     { 
         "state":"Mumbai",
         "confirmed": 308,
-        "deceased": 3,
         "recovered": 429,
+        "tested":10,
+        "deceased": 3,
         "vaccinated1": 2725,
         "vaccinated2": 2540
     },
     { 
         "state":"Andhra Pradesh",
+        "recovered": 675,
         "confirmed": 385,
         "deceased": 4,
-        "recovered": 675,
         "tested": 39848,
         "vaccinated1": 20497,
         "vaccinated2": 24137
@@ -44,6 +46,7 @@
         "state":"Patna",
         "confirmed": 2,
         "recovered": 3,
+        "tested":10,
         "vaccinated1": 737,
         "vaccinated2": 2024
     },
@@ -58,8 +61,8 @@
     { 
         "state":"Chhattisgarh",
         "confirmed": 32,
-        "deceased": 1,
         "recovered": 32,
+        "deceased": 1,
         "tested": 11869,
         "vaccinated1": 21312,
         "vaccinated2": 39393
@@ -67,14 +70,14 @@
     { 
         "state":"Assam",
         "confirmed": 212,
-        "deceased": 1,
         "recovered": 236,
+        "deceased": 1,
         "tested": 15060,
         "vaccinated1": 19124,
         "vaccinated2": 37463
     },
     { 
-        "state":"CH",
+        "state":"chennai",
         "confirmed": 5,
         "recovered": 3,
         "tested": 1403,
@@ -82,7 +85,7 @@
         "vaccinated2": 1282
     },
     { 
-        "state":"BR",
+        "state":"Bihar",
         "confirmed": 8,
         "recovered": 9,
         "tested": 226443,
@@ -92,8 +95,8 @@
     {
         "state":"Dadra and Nagar Haveli",
         "confirmed": 0,
-        "tested": 220,
         "recovered": 1,
+        "tested": 220,
         "vaccinated1": 3,
         "vaccinated2": 20
     },

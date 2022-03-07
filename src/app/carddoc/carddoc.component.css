@@ -1,0 +1,32 @@
+.card{
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.932);
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px gray;
+}
+.card-title{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.card-text{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+ }
+i{
+    font-size: 25px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    
+}
+span{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
