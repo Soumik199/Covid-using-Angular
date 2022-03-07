@@ -1,0 +1,132 @@
+[
+    {
+        "state":"westbengal",
+        "confirmed": 914,
+        "vaccinated1": 209609,
+        "vaccinated2": 58881,
+        "deceased": 15,
+        "recovered": 913,
+        "tested": 47417
+    },
+    {
+        "state":"Delhi",
+        "confirmed": 45,
+        "recovered": 46,
+        "tested": 56751,
+        "vaccinated1": 12482,
+        "vaccinated2": 11839
+    },
+    { 
+        "state":"Pune",
+        "confirmed": 245,
+        "recovered": 300,
+        "vaccinated1": 2900,
+        "vaccinated2": 4885
+    },
+    { 
+        "state":"Mumbai",
+        "confirmed": 308,
+        "deceased": 3,
+        "recovered": 429,
+        "vaccinated1": 2725,
+        "vaccinated2": 2540
+    },
+    { 
+        "state":"Andhra Pradesh",
+        "confirmed": 385,
+        "deceased": 4,
+        "recovered": 675,
+        "tested": 39848,
+        "vaccinated1": 20497,
+        "vaccinated2": 24137
+    },
+    { 
+        "state":"Patna",
+        "confirmed": 2,
+        "recovered": 3,
+        "vaccinated1": 737,
+        "vaccinated2": 2024
+    },
+    { 
+        "state":"chandigarh",
+        "confirmed": 5,
+        "recovered": 3,
+        "tested": 1403,
+        "vaccinated1": 211,
+        "vaccinated2": 1282
+    },
+    { 
+        "state":"Chhattisgarh",
+        "confirmed": 32,
+        "deceased": 1,
+        "recovered": 32,
+        "tested": 11869,
+        "vaccinated1": 21312,
+        "vaccinated2": 39393
+    },
+    { 
+        "state":"Assam",
+        "confirmed": 212,
+        "deceased": 1,
+        "recovered": 236,
+        "tested": 15060,
+        "vaccinated1": 19124,
+        "vaccinated2": 37463
+    },
+    { 
+        "state":"CH",
+        "confirmed": 5,
+        "recovered": 3,
+        "tested": 1403,
+        "vaccinated1": 211,
+        "vaccinated2": 1282
+    },
+    { 
+        "state":"BR",
+        "confirmed": 8,
+        "recovered": 9,
+        "tested": 226443,
+        "vaccinated1": 114694,
+        "vaccinated2": 145827
+    },
+    {
+        "state":"Dadra and Nagar Haveli",
+        "confirmed": 0,
+        "tested": 220,
+        "recovered": 1,
+        "vaccinated1": 3,
+        "vaccinated2": 20
+    },
+    {
+        "state":"Goa",
+        "confirmed": 23,
+        "recovered": 53,
+        "tested": 2361,
+        "vaccinated1": 2572,
+        "vaccinated2": 12404
+    },
+    {
+        "state":"Gujarat",
+        "confirmed": 20,
+        "recovered": 23,
+        "tested": 34282,
+        "vaccinated1": 14685,
+        "vaccinated2": 62096
+    },
+    {
+        "state":"Harayana",
+        "confirmed": 85,
+        "recovered": 198,
+        "tested": 3613,
+        "vaccinated1": 371,
+        "vaccinated2": 8192
+    },
+    {
+        "state":"Jammu",
+        "confirmed": 3,
+        "recovered": 6,
+        "tested": 303,
+        "vaccinated1": 86,
+        "vaccinated2": 593
+    }
+]

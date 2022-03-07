@@ -1,0 +1,64 @@
+.red{
+    background: rgb(245, 138, 138);
+}
+.yellow{
+    background: yellow;
+}
+.green{
+    background-color: rgb(158, 248, 158);
+}
+.blue{
+    background: rgba(255, 230, 0, 0.644);
+}
+
+.lightg{
+    background: rgb(201, 255, 219);
+}
+.lightred{
+    background: rgba(221, 240, 136, 0.842);
+}
+.lightor{
+    background: rgba(255, 166, 0, 0.678);
+}
+.lightyellow{
+    background: rgba(243, 247, 4, 0.699);
+}
+h4{
+    text-align: center;
+    color: rgb(15, 26, 180);
+     margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700px;
+    font-size: 25px;
+}
+.htext
+{
+    margin-top:50px;
+    text-align: center;
+    color:rgb(3, 27, 3);
+    font-weight: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 700px;
+}
+.rotate {
+    animation: rotation 2s;
+  }
+  
+  .linear {
+    animation-timing-function: linear;
+  }
+  
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
