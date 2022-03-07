@@ -1,34 +1,46 @@
+<div class="container mt-5">
+  <img src="/assets/images/world.png" class="img-fluid" alt="Responsive image" alt="" width="90%">
+</div>
 <div class="container-fluid mt-5">
- 
   <h3 class="htext"> <span><img src="/assets/images/death.png" alt="" class="rotate linear infinite"></span> COVID-19 LIVE UPDATE OF THE WORLD..</h3>
-  <h4>COVID-19 LIVE TRACKER</h4>
-<table class="table text-center">
-    <thead>
-      <tr>
-        <th scope="col" class="green">Countries</th>
-        <th scope="col" class="yellow">Total Cases</th>
-        <th scope="col" class="red">Today Cases</th>
-        <th scope="col" class="blue">Deaths</th>
-        <th scope="col" class="green">Total Deaths</th>
-        <th scope="col" class="red">Active</th>
-        <th scope="col" class="yellow">Recovered</th>
-        <th scope="col" class="red">Critical</th>
-        <th scope="col" class="blue">Tests</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor = "let data of getdata">
-        <td  scope="row"class="table-warning">{{data.country}}</td>
-        <td scope="row" class="lightg">{{data.cases}}</td>
-        <td scope="row" class="lightor">{{data.todayCases}}</td>
-        <td scope="row" class="lightyellow">{{data.deaths}}</td>
-        <td scope="row" class="lightg">{{data.todayDeaths}}</td>
-        <td scope="row" class="lightyellow">{{data.active}}</td>
-        <td scope="row" class="lightor">{{data.recovered}}</td>
-        <td scope="row"class="lightyellow">{{data.critical}}</td>
-        <td scope="row" class="lightg">{{data.testsPerOneMillion}}</td>
-        
-      </tr>
-    </tbody>
-  </table>
+  <h4>COVID-19 LIVE TRACKER</h4>  
+  <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="table-responsive">
+                    <table class="table ">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col" class="green">Countries</th>
+                            <th scope="col" class="yellow">Total Cases</th>
+                            <th scope="col" class="red">Today Cases</th>
+                            <th scope="col" class="blue">Deaths</th>
+                            <th scope="col" class="green">Total Deaths</th>
+                            <th scope="col" class="red">Active</th>
+                            <th scope="col" class="yellow">Recovered</th>
+                            <th scope="col" class="red">Critical</th>
+                            <th scope="col" class="blue">Tests</th>
+                          </tr>
+                        </thead>
+                        <tbody class="customtable">
+                            <tr *ngFor="let data of getdata">
+                            <td>{{data.country}}</td>
+                            <td>{{data.cases}}</td>
+                            <td>{{data.todayCases}}</td>
+                            <td>{{data.deaths}}</td>
+                            <td>{{data.todayDeaths}}</td>
+                            <td>{{data.active}}</td>
+                            <td>{{data.recovered}}</td>
+                            <td>{{data.critical}}</td>
+                            <td>{{data.testsPerOneMillion}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </div>
