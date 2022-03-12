@@ -14,6 +14,8 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TabledataComponent } from './tabledata/tabledata.component';
 import { CarddocComponent } from './carddoc/carddoc.component';
+import { PreventComponent } from './prevent/prevent.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { CarddocComponent } from './carddoc/carddoc.component';
     VaccineComponent,
     HomeComponent,
     TabledataComponent,
-    CarddocComponent
+    CarddocComponent,
+    PreventComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
