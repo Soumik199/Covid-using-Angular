@@ -50,6 +50,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![vaccine tracker](https://user-images.githubusercontent.com/76258598/187059251-ac6b1ed9-564b-421d-854f-b2dd713f27b3.PNG)
 ![doctor in india](https://user-images.githubusercontent.com/76258598/187059248-8bb2aeb9-4fdf-42b3-ab24-639893f6e055.PNG)
 ![footer](https://user-images.githubusercontent.com/76258598/187058415-b98287c2-b721-4166-b18b-3ea75acdf82a.PNG)
+## ----- Prevention Page Screenshot --------
+![preventation](https://user-images.githubusercontent.com/76258598/187059355-bbaa9a9f-0846-4d1e-b4d9-b840a26a72ea.PNG)
+![Capture 13](https://user-images.githubusercontent.com/76258598/187059351-42256409-9f6b-4ff5-9dea-139736b41418.PNG)
+![Capture 12](https://user-images.githubusercontent.com/76258598/187059352-10bad113-8fb7-44d0-ab6f-402efa7c1e09.PNG)
+![Capture 10](https://user-images.githubusercontent.com/76258598/187059354-25627aca-cefb-4fae-b215-71526ddc9840.PNG)
 
 
 
