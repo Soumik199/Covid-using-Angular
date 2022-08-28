@@ -44,7 +44,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![world wide page](https://user-images.githubusercontent.com/76258598/187059079-be87b758-f53f-44cc-b733-77940ad2ba44.PNG)
 ![live cases](https://user-images.githubusercontent.com/76258598/187059078-419d1500-a6c3-44a4-a3ff-0b40d673381c.PNG)
 
-## ----- World wide Cases Page Screenshot --------
+## ----- Vaccine Page Screenshot --------
+(https://user-images.githubusercontent.com/76258598/187059203-e3c01e3f-bf11-497f-91df-7dfbdfe30640.PNG)
+
 
 
 
