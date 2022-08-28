@@ -25,7 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
+## ------ Screenshot of the Whole Website --------
+  As this website is built on the Angular framework so it only  works on the local host that why i am sharing this screenshot of the website 
 
 ## ----- Home Page Screenshot --------
 ![Capture1](https://user-images.githubusercontent.com/76258598/187058370-64c75dd1-dda5-4134-9495-c44a4e18c5f8.PNG)
@@ -38,9 +39,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![section 12](https://user-images.githubusercontent.com/76258598/187059018-787f4ecb-8681-4937-b398-bb5c2c9d302c.PNG)
 ![Capture 6](https://user-images.githubusercontent.com/76258598/187058946-b6255ccb-0ea7-433b-ad75-8adb44ae9e76.PNG)
 ![footer](https://user-images.githubusercontent.com/76258598/187058415-b98287c2-b721-4166-b18b-3ea75acdf82a.PNG)
+
 ## ----- World wide Cases Page Screenshot --------
-![live cases](https://user-images.githubusercontent.com/76258598/187059078-419d1500-a6c3-44a4-a3ff-0b40d673381c.PNG)
 ![world wide page](https://user-images.githubusercontent.com/76258598/187059079-be87b758-f53f-44cc-b733-77940ad2ba44.PNG)
+![live cases](https://user-images.githubusercontent.com/76258598/187059078-419d1500-a6c3-44a4-a3ff-0b40d673381c.PNG)
+
+## ----- World wide Cases Page Screenshot --------
 
 
 
