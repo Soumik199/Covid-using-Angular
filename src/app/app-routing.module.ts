@@ -9,6 +9,10 @@ import { VaccineComponent } from './vaccine/vaccine.component';
 
 const routes: Routes = [
   {
+    path:'',
+    component:HomeComponent //when there is no router link then we use this ..or it can be the landing page.
+  },
+  {
     component:CaseComponent,
     path:'case'  // Rem. the router link in Html should have same name there
   },
