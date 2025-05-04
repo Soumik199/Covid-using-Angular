@@ -49,9 +49,9 @@ h4
 .textdes{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    color:green;
+    /* color:rgba(15, 26, 180, 0.847); */
     font-size:20px;
-    font-weight: 500px;
+    font-weight: lighter;
 }
 .heading{
     text-align: center;
@@ -89,6 +89,7 @@ h4
 
 }
 .descbody{
-    background: rgba(241, 225, 225, 0.301);
+    /* background: rgba(241, 225, 225, 0.301); */
+   
   
 }

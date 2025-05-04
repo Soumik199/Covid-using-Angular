@@ -1,74 +1,148 @@
-h4{
+h4 {
     text-align: center;
-    color: rgb(15, 26, 180);
-     margin-bottom: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #003865;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700px;
     font-size: 25px;
 }
-.htext
-{
-    margin-top:50px;
+
+.htext {
     text-align: center;
-    color:rgb(3, 27, 3);
+    color: rgb(3, 27, 3);
     font-weight: 500px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-weight: 700px;
 }
+
 /*-----------------------card Design------------------------*/
-.title{
+.title {
     text-align: center;
-    color: rgb(230, 231, 240);
-     margin-bottom: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #003865;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700px;
     font-size: 25px;
     text-decoration: underline;
 }
-.text{
-    font-size:17px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(238, 241, 241);
+
+.text {
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
     margin-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
 }
-.box{
-    padding:10px 0px;
+
+.box {
+    padding: 10px 0px;
     width: 100%;
-    background: rgba(233, 229, 229, 0.808);
+    /* background: rgba(233, 229, 229, 0.808); */
 }
 
-.box-part{
-    background:rgba(20, 19, 19, 0.938);
-    border-radius:10px;
-    padding:20px 10px;
-    margin:10px 0px;
+.box-part {
+    margin: 10px 0px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgb(190 194 244 / 37%);
+    padding: 20px;
 }
-.text{
-    margin:10px 0px;
+
+.text {
+    margin: 10px 0px;
 }
 
 .top-left {
     position: absolute;
     top: 300px;
     left: 170px;
-  }
-.heading{
-   
+}
+
+.heading {
+
     text-align: center;
-    color:rgb(3, 27, 3);
+    color: rgb(3, 27, 3);
     font-weight: 500px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     font-weight: 700px;
 }
-.subheading{
+
+.subheading {
     text-align: center;
     color: rgb(15, 26, 180);
-     margin-bottom: 20px;
-    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 700px;
     font-size: 30px;
+}
+
+.headingPoster {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: #003865;
+    font-size: 3.5em;
+    letter-spacing: normal;
+    margin-top: 15px;
+}
+
+.subtitlePoster {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #333333;
+    font-size: 25px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #003865;
+    font-size: 25px;
+    letter-spacing: normal;
+    margin-bottom: 5px;
+}
+
+.paragraph-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #333333;
+    font-size: 25px;
+    line-height: 1.6;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #003865;
+    font-size: 15px;
+    letter-spacing: normal;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buttons1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: #003865; 
+  font-size: 15px; 
+  letter-spacing: normal; 
+  background-color: white; 
+  padding: 10px 20px; 
+  border: none;
+  outline: 1px solid black;
+  border-radius: 5px; 
+  cursor: pointer;
 }

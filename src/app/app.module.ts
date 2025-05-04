@@ -16,6 +16,8 @@ import { TabledataComponent } from './tabledata/tabledata.component';
 import { CarddocComponent } from './carddoc/carddoc.component';
 import { PreventComponent } from './prevent/prevent.component';
 import { BlogComponent } from './blog/blog.component';
+import { CommonQuestionComponent } from './common-question/common-question.component';
+import { DeadReportComponent } from './dead-report/dead-report.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { BlogComponent } from './blog/blog.component';
     TabledataComponent,
     CarddocComponent,
     PreventComponent,
-    BlogComponent
+    BlogComponent,
+    CommonQuestionComponent,
+    DeadReportComponent
   ],
   imports: [
     BrowserModule,

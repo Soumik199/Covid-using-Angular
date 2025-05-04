@@ -1,30 +1,53 @@
 
-.card-text{
-  
-    background: fill;
+
+.card {
+    border-radius: 10px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 5px 15px rgba(171, 205, 243, 0.89);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    font-size: 17px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-  }
-  .card{
-     border-color: #beb7b7;
-     border-radius: 5px;
-     border-width: 2px;
-     box-shadow: 0px  10px 25px rgba(85, 83, 83, 0.89);
-     margin-bottom:20px;
-     width: 350px;
-     margin-left:30px;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-.card-body{
-    background: rgba(235, 231, 224, 0.678);
+    padding: 15px;
+    box-sizing: border-box;
 }
-.card-title{
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.card-subtitle {
+
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-    color:green
+    color: rgb(15, 26, 180) !important;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700px;
+    font-size: 25px;
+}
+
+.card-image-container {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.7em;
+    color: #555;
+    margin-top: 10px;
 }
 .htext
 {
@@ -36,75 +59,7 @@
     font-size: 40px;
     font-weight: 700px;
 }
-   
-
-  .tex{
-      margin-top:40px;
-      text-align: center;
-  }
-  .section .row{
-      margin-top: 10px;
-      margin-bottom: 50px;
-  }
-  .section .row .col-md-6{
-      background: #ffe5bde5;
-      margin-right: -2%;
-      padding: 3%;
-      height: 45vh;
-  }
-  .section h3{
-      color: #004085;
-      text-align: center;
-      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  .section p{
-      margin-top: 2px;
-      color: rgb(12, 4, 53);
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size:18.5px;
-      text-align: center;
-    
-  }
-  .section img
-  {
-      width: 80%;
-  }
-  .syt{
-      text-align: center;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size: 17px;
-  }
-  nav{
-      display: inline-block;
-  }
-  li{
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size: 16px;
-      
-  }
-  .Caption
-  {
-      text-align: center;
-      margin-bottom: 40px;
-      font-family:Georgia, 'Times New Roman', Times, serif;
-      font-size: 18px;
-  }
-  .texss{
-      text-align: center;
-      font-family: 'Times New Roman', Times, serif;
-      color:rgb(3, 27, 3);
-      font-weight: 500px;
-      font-size: 40px;
-  }
-  .textt{
-      text-align: center;
-      font-family: 'Times New Roman', Times, serif;
-      color:rgb(3, 27, 3);
-      font-weight: 500px;
-      margin-top: 50px;
-      font-size: 40px;
-  }
-  h4{
+h4{
     text-align: center;
     color: rgb(15, 26, 180);
      margin-bottom: 20px;
@@ -112,24 +67,35 @@
     font-weight: 700px;
     font-size: 25px;
 }
-li{
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top:5px;
-    color: blue;
-    list-style-type:disc;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 19px;
-}
-.Read{
-    width: 210px;
-    text-align: center;
-    align-items: center;
+/* Specific card styling based on the image */
+.card:nth-child(1) .card-title { /* Doctor Medical */
     margin-top: 20px;
-    border: none;
-    height: 50px;
-    background: rgba(153, 248, 166, 0.863);
-    border-radius: 10px;
-    color:rgb(10, 10, 10);
+}
+
+.card:nth-child(2) .card-title { /* Online Meeting */
+    margin-top: 10px;
+}
+
+.card:nth-child(3) .card-title { /* Wash Hands */
+    margin-top: 10px;
+}
+
+
+.texss{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(3, 27, 3);
+    font-weight: 500px;
+    font-size: 40px;
+}
+
+.syt{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.lifffect{
+    color:rgb(15, 26, 180); 
     font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
